@@ -1,11 +1,12 @@
 
 import './App.css';
+import Footer from './components/Footer'
 
 function App() {
   return (
     <>
-    <h1>Why can't I change the email?</h1>
   <div>Let's go</div>
+  <Footer />
     </>
   );
 }
