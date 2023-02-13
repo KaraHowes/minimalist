@@ -1,0 +1,1 @@
+This is my attempt to design a website with a minimalist aesthetic
