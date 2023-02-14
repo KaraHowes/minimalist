@@ -17,7 +17,7 @@ const Navbar = () => {
       <>
         <nav className="navbar">
           <Link to="/" className="navbar-logo">
-            Minimalist <i class='fab fa-firstdraft' />
+            Minimalist
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
