@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Featured = () => {
     return (
         <ArtContainer>
-            <Image src="assets/wave-crossA4-01.png"/>
+            <Image src="assets/concentric-01.png"/>
             <Image src="assets/monochrome-rainbowA4-01.png"/>
             <Image src="assets/i-v-flimsA4-01.png"/>
         </ArtContainer>
