@@ -17,7 +17,8 @@ export default Footer
 
 
 const FooterContainer = styled.div`
-background-color: black;`
+background-color: black;
+padding-top: 20px;`
 
 const Text = styled.h2`
 color: white;
@@ -25,10 +26,11 @@ font-family: 'Open Sans', sans-serif;
 font-weight: 400;
 font-size: 1.5rem;
 text-align: center;
-padding: 15px;
+padding-bottom: 15px;
+font-family: 'Nunito Sans', sans-serif;
 `
 const Logo = styled.img`
-width: 100px;
+width: 70px;
 margin: 0 auto;
-padding: 15px 0;
+padding: 5px 0;
 display: block;`
