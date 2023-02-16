@@ -1,12 +1,13 @@
 import React from 'react';
 import styled from 'styled-components'
 
-const Art = () => {
+const Home = () => {
 
     return(
-        <div>ART</div>
+        <> 
+        Shop shop shop shop</>
        
     )
 }
 
-export default Art
+export default Home

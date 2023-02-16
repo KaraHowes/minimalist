@@ -40,14 +40,14 @@
   height: 80px;
 }
 
-.nav-links {
+.nav-links, .icon-links {
   color: white;
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
 
 .nav-links:hover {
-  background-color: #1888ff;
+  background-color: #6b6a66;
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }

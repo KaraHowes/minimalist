@@ -40,7 +40,7 @@ const Navbar = () => {
             <li className="nav-item">
               <Link
                 to="/SignIn"
-                className="nav-links"
+                className="icon-links"
                 onClick={closeMobileMenu}>
                 <Image src="assets/user-white-01.png"/>
               </Link>
@@ -48,7 +48,7 @@ const Navbar = () => {
             <li className="nav-item">
               <Link
                 to="/basket"
-                className="nav-links"
+                className="icon-links"
                 onClick={closeMobileMenu}>
                 <Image src="assets/bag-white-01.png"/>
               </Link>
