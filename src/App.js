@@ -7,6 +7,9 @@ import Hero from './components/Hero'
 import Featured from './components/Featured'
 import About from './components/About'
 import Footer from './components/Footer'
+import Art from './pages/Art'
+import SignIn from './pages/SignIn'
+import ShoppingCart from './pages/ShoppingCart'
 
 function App() {
   return (
@@ -15,8 +18,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route path ='/' />
-        <Route path ='/services' />
-        <Route path ='/products' />
+        <Route path ='/signIn' element={<SignIn />}/>
+        <Route path ='/art' element={<Art />}/>
+        <Route path ='/basket' element={<ShoppingCart />}/>
       </Routes>
     </Router>
   <Hero />
